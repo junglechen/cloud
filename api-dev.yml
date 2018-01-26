@@ -5,3 +5,5 @@ eureka:
    client: 
        serviceUrl: 
            defaultZone: http://localhost:8383/eureka/
+   instance: 
+      appname: eureka.api  

@@ -1,2 +1,15 @@
 developer: junglechen
-   
+server:
+   port: 8282
+spring: 
+   cloud: 
+      config: 
+         profile: dev
+   application: 
+       name: web
+eureka: 
+   client: 
+      serviceUrl: 
+          defaultZone: http://localhost:8383/eureka/
+   instance: 
+      appname: eureka.web  
