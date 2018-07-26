@@ -1,12 +1,6 @@
 developer: junglechen
 server:
    port: 8282
-spring: 
-   cloud: 
-      config: 
-         profile: dev
-   application: 
-       name: web
 eureka: 
    client: 
       serviceUrl: 
