@@ -1,4 +1,3 @@
-developer: junglechen
 server:
    port: 8282
 eureka: 
